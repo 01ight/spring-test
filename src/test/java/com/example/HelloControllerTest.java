@@ -28,6 +28,7 @@ public class HelloControllerTest {
         RestAssured.port = port;
     }
 // comment 
+// another comment 
     @Test
     public void testHello() throws Exception {
         when().get("/").then()
